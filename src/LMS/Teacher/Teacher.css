@@ -1,0 +1,68 @@
+.Teacher_Section {
+  background: url("./Media/Teacher-bg.jpg");
+}
+.Tcourses::before {
+  white-space: nowrap;
+  content: "Classes :";
+  width: auto;
+  font-size: 13px;
+  font-weight: bold;
+  color: #01d6dd;
+  text-shadow: 1px 2px 8px rgb(4, 1, 1);
+  transform: translateY(-23px);
+  position: absolute;
+}
+.Tnavbar {
+  background: #006cfac6 !important;
+}
+.Th1 {
+  color: #8eebee;
+}
+.Tcourse {
+  color: #01d6dd;
+}
+.Tcourse:hover {
+  color: #e9f1ff;
+  background: #51def7c6;
+  border: 2px solid #51def7c6;
+}
+.Tcourse:active {
+  color: white;
+  background: rgb(1, 255, 1);
+  border: 2px solid rgb(1, 255, 1);
+}
+
+.tlogo:hover {
+  background: skyblue;
+}
+.Tsidebar {
+  background: rgba(0, 61, 140, 0.885);
+}
+.Tsidebar::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: #00d9ff;
+}
+.TSitems:hover {
+  text-decoration: none;
+  background: #51def7c6 !important;
+  color: White !important;
+}
+.TSitems:active {
+  color: white !important;
+  background: rgb(1, 255, 1) !important;
+}
+.TSidebar-2 {
+  background: #63c8fe;
+  color: rgb(2, 48, 128);
+}
+.TBarItems {
+  border: 1px solid rgb(2, 48, 128) !important;
+}
+.TBarItems:hover {
+  background: #0852d1c6 !important;
+  color: White !important;
+}
+.TBarItems:active {
+  color: white !important;
+  background: rgb(1, 255, 1) !important;
+}

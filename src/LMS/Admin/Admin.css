@@ -1,0 +1,58 @@
+.Aditems::before {
+  white-space: nowrap;
+  content: "";
+  width: auto;
+  font-size: 13px;
+  font-weight: bold;
+  color: #01d6dd;
+  text-shadow: 1px 2px 8px rgb(4, 1, 1);
+  transform: translateY(-23px);
+  position: absolute;
+}
+.Admin-Section {
+  background: url("./Media/Admin-bg.jpg");
+}
+.Adnavbar {
+  background: #edd839c6 !important;
+}
+.Ah1 {
+  color: rgb(240, 240, 105);
+}
+.Adlogo:hover {
+  background: rgb(255, 232, 99);
+}
+.Adcourse {
+  color: #ffee6dc6;
+}
+.Adcourse:hover {
+  color: #f7da00;
+  background: rgb(38, 37, 6);
+  border: 2px solid rgb(38, 37, 6);
+}
+.Adcourse:active {
+  background: #d0cd98c6;
+  color: rgb(38, 37, 6);
+  border: 2px solid #d0cd98c6;
+}
+.AdSideBar {
+  background: #4f4c01bf !important;
+}
+.AdSideBar::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: #cbb301;
+}
+.AdSitems {
+  color: #cbb301;
+}
+.AdSitems:hover {
+  color: #f7da00;
+  background: rgb(0, 0, 0);
+}
+.AdSitems:active {
+  background: #d0cd98c6;
+  color: rgb(38, 37, 6);
+}
+.AdSitems h3 {
+  font-size: 1.1vw;
+  font-weight: 700;
+}

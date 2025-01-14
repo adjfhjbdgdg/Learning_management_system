@@ -1,0 +1,49 @@
+.activity-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  width: 400px; /* Makes the activity card span the full width of the left panel */
+}
+
+.activity-card h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.activity-card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.activity-card span {
+  font-size: 16px;
+  color: #666;
+}
+
+.activity-chart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.platform-stats {
+  margin-top: 20px;
+}
+
+.platform-stats p {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.platform-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  color: #555;
+}

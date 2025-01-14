@@ -1,0 +1,71 @@
+.Login_Page {
+  font-family: cursive;
+  width: 100%;
+  height: 100vh;
+  background: url("./Media/lms_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.Login_Page::-webkit-scrollbar {
+  width: 0.5vw;
+}
+.Login_Page::-webkit-scrollbar-track {
+  background: #0495a088;
+}
+.Login_Page::-webkit-scrollbar-thumb {
+  background: #0057999c;
+}
+.Form {
+  background: #000000a8;
+  padding: 3%;
+  border-radius: 50px;
+}
+.text {
+  color: #009431 !important;
+}
+.icons {
+  color: #009431;
+  transform: translateY(-200%);
+  position: relative;
+  left: 42%;
+}
+.Logo {
+  width: 400px;
+  height: 400px;
+  background: url("./Media/lms_back.png");
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  animation: App-logo-spin infinite 10s linear;
+}
+.front {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  background: url("./Media/lms_front.png");
+  position: absolute;
+  z-index: 2;
+}
+.text-muted {
+  color: #6cc288a2 !important;
+}
+.txmu {
+  color: rgba(182, 7, 7, 0.925) !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,85 @@
+.Sidebar-2 {
+  width: 13%;
+  height: 91vh;
+  background: rgba(132, 216, 132, 0.726);
+  color: rgb(0, 91, 0);
+  position: fixed;
+  right: 0;
+  top: 0;
+  text-align: left;
+  z-index: 4;
+}
+.BarItems {
+  width: 100%;
+  font-size: 1.4vw;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 1px solid rgb(0, 91, 0);
+}
+.BarItems:hover {
+  cursor: pointer;
+  color: rgb(226, 226, 226);
+  background: #016612bf;
+}
+.BarItems:active {
+  color: white;
+  background: rgb(3, 77, 204);
+}
+.BarItems h3 {
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+.hd1 {
+  transform: translateX(-10%);
+}
+.bar_ico1 {
+  transform: translateX(-115%);
+}
+.hd2 {
+  transform: translateX(-96%);
+}
+.bar_ico2 {
+  transform: translateX(-375%);
+}
+.hd3 {
+  transform: translateX(-82%);
+}
+.bar_ico3 {
+  transform: translateX(-355%);
+}
+.hd4 {
+  transform: translateX(-28%);
+}
+.bar_ico4 {
+  transform: translateX(-215%);
+}
+.hd5 {
+  transform: translateX(-8%);
+}
+.bar_ico5 {
+  transform: translateX(-85%);
+}
+.hd6 {
+  transform: translateX(-9%);
+}
+.bar_ico6 {
+  transform: translateX(-105%);
+}
+.hd7 {
+  transform: translateX(-23%);
+}
+.bar_ico7 {
+  transform: translateX(-170%);
+}
+.Coursedata {
+  width: 85%;
+  height: 85vh;
+  transform: translateX(-17%);
+  overflow-y: scroll;
+}
+.Coursedata::-webkit-scrollbar {
+  width: 0.3vw;
+}

@@ -1,2 +1,2 @@
-# Learning_management_system
+# LMS
 Created with CodeSandbox
